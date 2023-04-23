@@ -561,14 +561,7 @@ text-transform:uppercase;
   transition: 500ms linear;
  
 }
-.copyright a .C::after{
-  content-visibility: hidden;
-  contain-intrinsic-inline-size: 2px;
-  
-  content:"HARAN";
-  transition: 500ms linear;
- 
-}
+
 
 
 
