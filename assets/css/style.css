@@ -269,8 +269,7 @@ header .container{
 font-family: 'Bruno Ace SC', cursive;
 font-family: 'Merriweather', serif;
 font-family: 'Yeseva One', cursive;
-font-size: 6.5rem;
-font-weight: 800;
+
 text-transform:uppercase;
 
 
@@ -564,7 +563,7 @@ text-transform:uppercase;
 }
 .copyright a .C::after{
   content-visibility: hidden;
-
+  contain-intrinsic-inline-size: 2px;
   
   content:"HARAN";
   transition: 500ms linear;
@@ -608,13 +607,18 @@ text-transform:uppercase;
 
 /* Responsive for larger than 550px */
 
-@media (min-width: 550px){
+@media (min-width:300px){
 
   /* REUSED STYLE */
   .container{
     max-width: 500px;
     margin-inline: auto;
   }
+  .titl{
+    font-size: 3.5rem;
+font-weight: 600;
+  }
+ 
 }
 
 /* Responsive for larger than or equal to 768px */
@@ -640,6 +644,10 @@ text-transform:uppercase;
   .hero :is(.btn-primary, .btn-title, .btn-link){
     --fs-4: 16px;
     margin-bottom: 0;
+  }
+  .titl{
+    font-size: 4.5rem;
+font-weight: 700;
   }
   
   
@@ -772,6 +780,10 @@ text-transform:uppercase;
   .hero-content{
     max-width: 680px;
     margin-inline: auto;
+  }
+  .titl{
+    font-size: 6rem;
+font-weight: 800;
   }
 
   /* PODCAST */
