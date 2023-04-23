@@ -564,7 +564,7 @@ text-transform:uppercase;
 }
 .copyright a .C::after{
   content-visibility: hidden;
-  contain-intrinsic-inline-size: 2px;
+
   
   content:"HARAN";
   transition: 500ms linear;
