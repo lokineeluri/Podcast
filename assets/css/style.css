@@ -554,13 +554,6 @@ text-transform:uppercase;
   padding: 4px;
   
 }
-.copyright a .L::after{
-  content-visibility: hidden;
-
-  content:"OKESH";
-  transition: 500ms linear;
- 
-}
 
 
 
